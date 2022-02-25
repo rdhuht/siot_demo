@@ -1,7 +1,7 @@
 import siot
 from time import sleep
 
-SERVER = "10.162.242.206"            # MQTT服务器IP
+SERVER = input("server:")          # MQTT服务器IP
 CLIENT_ID = "phone_id"              #在SIoT上，CLIENT_ID可以留空
 IOT_pubTopics  = ['farmer/tianqiSensors_temperature', 'farmer/tianqiSensors_humidity']   #“topic”为“项目名称/设备名称”
 IOT_UserName ='siot'        #用户名
