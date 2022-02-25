@@ -10,3 +10,5 @@
 farm_faculty_controller.py 模拟手机端，包含温湿度的判断逻辑，及执行器的处理逻辑；
 fa……humidity.py 模拟湿度检测装置，发送数据到siot；
 fa……temperature.py 模拟温度检测装置，发送数据到siot。
+
+# 
