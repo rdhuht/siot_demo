@@ -6,8 +6,8 @@ import random
 SERVER = input("server:")            # MQTT服务器IP
 CLIENT_ID = "temperature_id"                  # 在SIoT上，CLIENT_ID可以留空
 IOT_pubTopic  = 'farmer/tianqiSensors_temperature'  # “topic”为“项目名称/设备名称”
-IOT_UserName ='siot'            # 用户名
-IOT_PassWord ='siot'         # 密码
+IOT_UserName ='siotcuijianwei'            # 用户名
+IOT_PassWord ='siotcuijianwei'         # 密码
 
 siot.init(CLIENT_ID, SERVER, user=IOT_UserName, password=IOT_PassWord)
 siot.connect()
